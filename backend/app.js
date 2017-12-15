@@ -5,7 +5,10 @@ var fcm = new FCM(serverKey);
 
 var message = {
     to: 'ddLOdkiGR4s:APA91bEXz7z5EPHd0NLfDnWWoLkWdXscJUExBqDIInKktNAACRRO6M5CckDBIpIT8FGwEWxHudkijFj0Z7Ea4jlBgsT9xZWRIlXlkIPcd4g9l7CvcBjov3ndFQmPcBx3q8VVg8RwO38C',
-    notification: {
+    
+data:{'faza':'heyla'
+},
+notification: {
         title: 'Nizou',
         body: 'ta7foun'
     }
